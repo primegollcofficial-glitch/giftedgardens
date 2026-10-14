@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://giftedgardens.biz/sitemap.xml
+
+# Disallow admin/private paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /node_modules/
